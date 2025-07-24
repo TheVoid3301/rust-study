@@ -25,8 +25,8 @@ fn main() {
     let space = space.len();
 
     //这是不允许的,mut可以改变值但是不能改变数据类型
-    let mut space = "  ";
-    space = space.len();
+    let mut spaces = "  ";
+    spaces = spaces.len();
 
     //rust的标量类型有整形,浮点型,布尔型,字符类型
     // addition
