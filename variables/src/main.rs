@@ -1,7 +1,7 @@
 fn main() {
     // let默认不可变
     let x = 5;
-    x = 6;
+    //x = 6;
 
     //mut修饰可变变量
     let mut x = 5;
@@ -11,7 +11,7 @@ fn main() {
     const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3;
 
     //第二次声明相同名称的变量意味着遮蔽之前的变量
-    let x = 5
+    let x = 5;
     let x = x + 1;
     {
         //属于内部遮蔽
@@ -26,7 +26,7 @@ fn main() {
 
     //这是不允许的,mut可以改变值但是不能改变数据类型
     let mut spaces = "  ";
-    spaces = spaces.len();
+    //spaces = spaces.len();
 
     //rust的标量类型有整形,浮点型,布尔型,字符类型
     // addition
