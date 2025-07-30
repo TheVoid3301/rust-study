@@ -63,3 +63,21 @@ pub enum Appetizer {
     Soup,
     Salad,
 }
+
+//重导出
+pub use crate::front_of_house::hosting;
+
+//crate引用当前项目,std引用标准库,rand等引用第三方
+use crate::add;
+std::collections::HashMap;
+rand::Rng;
+
+use std::{cmp::Ordering, io};
+use std::cmp::Ordering;
+use std::io;
+
+use std::io::{self, Write};
+use std::io;
+use std::io::Write;
+
+use std::collections::*;
