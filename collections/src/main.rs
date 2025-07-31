@@ -1,3 +1,5 @@
+mod String;
+
 #![allow(unused)]
 enum SpreadsheetCell {
     Int(i32),
